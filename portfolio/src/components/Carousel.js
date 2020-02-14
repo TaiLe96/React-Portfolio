@@ -3,11 +3,11 @@ import Card from "./Card";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 
-import dinerparty from "../assets/images/dinerparty.png";
-import fitnesstracker from "../assets/images/fitnesstracker.png";
+import diner from "../assets/images/diner.png";
+import tracker from "../assets/images/tracker.png";
 import notetaker from "../assets/images/notetaker.png";
-import passwordgen from "../assets/images/passwordgen.png";
-import templategengine from "../assets/images/templateengine.png";
+import password from "../assets/images/password.png";
+import templateengine from "../assets/images/templateengine.png";
 
 class Carousel extends React.Component{
 
@@ -17,41 +17,41 @@ class Carousel extends React.Component{
             items: [
                 {
                     id: 0,
-                    title: "Note Taker",
-                    subTitle: "",
-                    imgSrc: notetaker,
-                    link: "https://github.com/TaiLe96/note-taker",
+                    title: "Fitness Tracker",
+                    subTitle: "JavaScript, NodeJS, Express, Mongoose, MongoDB",
+                    imgSrc: tracker,
+                    link: "https://github.com/TaiLe96/fitness-tracker",
                     selected: false
                 },
                 {
                     id: 1,
                     title: "Diner Party",
-                    subTitle: "",
-                    imgSrc: dinerparty,
+                    subTitle: "HTML, CSS, JavaScript, jQuery, API",
+                    imgSrc: diner,
                     link: "https://github.com/kokevin678/Dinner_Party",
                     selected: false
                 },
                 {
                     id: 2,
                     title: "Password Generator",
-                    subTitle: "",
-                    imgSrc: passwordgen,
+                    subTitle: "HTML, CSS, JavaScript",
+                    imgSrc: password,
                     link: "https://github.com/TaiLe96/password-generator",
                     selected: false
                 },
                 {
                     id: 3,
-                    title: "Fitness Tracker",
-                    subTitle: "",
-                    imgSrc: fitnesstracker,
-                    link: "https://github.com/TaiLe96/fitness-tracker",
+                    title: "Note Taker",
+                    subTitle: "JavaScript, NodeJs, Express",
+                    imgSrc: notetaker,
+                    link: "https://github.com/TaiLe96/note-taker",
                     selected: false
                 },
                 {
                     id: 4,
                     title: "Template Engine",
-                    subTitle: "",
-                    imgSrc: templategengine,
+                    subTitle: "HTML, CSS, JavaScript",
+                    imgSrc: templateengine,
                     link: "https://github.com/TaiLe96/template-engine",
                     selected: false
                 },
@@ -69,7 +69,6 @@ class Carousel extends React.Component{
                 item.selected = false;
             }
         });
-
         this.setState({
             items
         });

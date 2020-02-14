@@ -1,15 +1,30 @@
-import React from "react";
-import Content from "../components/Content";
+import React from 'react';
+import Hero from '../components/Hero';
+import Content from '../components/Content';
 
 function AboutPage(props) {
+
     return(
         <div>
+            <Hero/>
+
             <Content>
-                <p>I was born and lived in Vietnam for about 13 years. In 2008, my family decided to moved to the United States. It was an excited moment of my life, also a culture shock for me since I barely knew any English. So, I spent the first two years learning English. I graduted from Lincoln High School and got accepted into UCR in 2015. As you can see from the picture, I graduted college with a B.A in Business Economics.</p>
-                <p>I have been looking for jobs since graduation but it was a challenge. So I decided to join coding bootcamp at UCB Extension with the hope to increase job opportunities.</p>
+            <h1>About me</h1>
+
+            <img src=""></img>
+            <p>Hello, my name is Tai. I graduated from University of California, Riverside with a Business Economics degree in 2019.</p>
+
+            <p>I'm currently learning full-stack coding at University of California, Berkeley extension and will be finished by the end of Feburary.</p>
+
+            <p>I'm constantly learning new things. currently those things include gaining more experience with MongoDB, React, Express JS,</p>
+
+            <p>and NodeJs. </p>
+
+            <p></p>
             </Content>
         </div>
-    )
+    );
+
 }
 
 export default AboutPage;
