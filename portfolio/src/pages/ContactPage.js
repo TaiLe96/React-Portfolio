@@ -1,6 +1,8 @@
 import React from 'react';
 import Hero from '../components/Hero';
 import Content from '../components/Content';
+import { Icon } from 'antd';
+import "../styles/ContactPage.css";
 
 function ContactPage() {
 
@@ -13,20 +15,18 @@ function ContactPage() {
                     <h1>Contact Me: </h1>
                     <br />
                     <span>
-                        <i class="far fa-envelope-open"></i>
-                        tle449@gmail.com
+                    <Icon type="mail" className='icon color'/> tle449@gmail.com
                     </span>
                     <br />
                     <br />
                     <span >
-                        <i class="fab fa-linkedin"></i>
-                        <a href="https://www.linkedin.com/in/tu-tai-le-2a9646139/">LinkedIn</a>
+                    <Icon type="linkedin" className='icon' /><a href="https://www.linkedin.com/in/tu-tai-le-2a9646139/"> LinkedIn</a>
+                        
                     </span>
                     <br />
                     <br />
                     <span>
-                        <i class="fab fa-github"></i>
-                        <a href="https://github.com/TaiLe96">GitHub</a>
+                    <Icon type="github" className='icon'/><a href="https://github.com/TaiLe96"> GitHub</a>
                     </span>
                 </div>
             </Content>
